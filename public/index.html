@@ -53,7 +53,6 @@
                 <a class="w-nav-link menu-li" style="color:#9D8B6E;" href="#resume">RESUME</a>
                 <a class="w-nav-link menu-li" style="color:#9D8B6E;" href="#portfolio">PROJECTS</a>
                 <a class="w-nav-link menu-li" style="color:#9D8B6E;" href="#contact">CONTACT</a>
-              
               </nav>
               <div class="w-nav-button">
                 <div class="w-icon-nav-menu"></div>
@@ -86,6 +85,15 @@
           <div class="about">
             <h1 class="about-heading">ABOUT</h1>
             <div class="about-text">WHO AM I?</div>
+                        <div style="text-align:right;">
+<audio autoplay id="player" src="music/Jazz.mp3"></audio>
+<div>
+    <p style="text-align:right;color:white;">For some music press play.</p>
+    <button onclick="document.getElementById('player').play()">Play</button>
+    <button onclick="document.getElementById('player').pause()">Pause</button>
+    <button onclick="document.getElementById('player').muted=!document.getElementById('player').muted">Mute/ Unmute</button>
+</div>
+            </div>
                   <h3 style="text-align:center;color:white;">Find me at:</h3>
       <div class="fotter-social-wrap" style="text-align:center;">
               <a href="https://www.facebook.com/rmahal" ><img class="fotter-social" src="images/social/Facebook.png" alt="52dd24f2929b601f54000551_Twitter.png"></a>
@@ -227,9 +235,9 @@ Engineering II.</p>
         <ul class="grid cs-style-1">
           <li>
             <figure>
-              <img class="portfolio-images" src="images/portfolio/github.jpg">
+              <img class="portfolio-images" src="projectpics/pirvrob.png">
               <figcaption>
-                <h3>Link to GitHub</h3>
+                <h3>Robot-vs-Pirates</h3>
                 <span>Raj Mahal</span>
                 <a href="https://github.com/rmahal/Robot-vs-Pirates">Take a look</a>
               </figcaption>
@@ -247,11 +255,11 @@ Engineering II.</p>
         <ul class="grid cs-style-1">
           <li>
             <figure>
-              <img class="portfolio-images" src="images/portfolio/github.jpg">
+              <img class="portfolio-images" src="projectpics/knod.png">
               <figcaption>
-                <h3>Link to GitHub</h3>
+                <h3>Knodemy Web Project</h3>
                 <span>Raj Mahal</span>
-                <a href="https://github.com/rmahal/">Take a look</a>
+                <a href="#">No Link</a>
               </figcaption>
             </figure>
           </li>
@@ -269,11 +277,11 @@ fact from a set array of facts, leveraged AWS Lambda function for server side pr
         <ul class="grid cs-style-1">
           <li>
             <figure>
-              <img class="portfolio-images" src="images/portfolio/github.jpg">
+              <img class="portfolio-images" src="projectpics/alex.png">
               <figcaption>
                 <h3>Link to GitHub</h3>
                 <span>Raj Mahal</span>
-                <a href="https://github.com/rmahal/">Take a look</a>
+                <a href="https://www.amazon.com/Student-Unknown-Game-Facts/dp/B07527GYQS/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1505084050&sr=1-1&keywords=student+game+facts">Take a look</a>
               </figcaption>
             </figure>
           </li>
@@ -289,7 +297,7 @@ fact from a set array of facts, leveraged AWS Lambda function for server side pr
         <ul class="grid cs-style-1">
           <li>
             <figure>
-              <img class="portfolio-images" src="images/portfolio/github.jpg">
+              <img class="portfolio-images" src="projectpics/thp.png">
               <figcaption>
                 <h3>Link to GitHub</h3>
                 <span>Raj Mahal</span>
@@ -310,7 +318,7 @@ fact from a set array of facts, leveraged AWS Lambda function for server side pr
         <ul class="grid cs-style-1">
           <li>
             <figure>
-              <img class="portfolio-images" src="images/portfolio/github.jpg">
+              <img class="portfolio-images" src="projectpics/resgame.png">
               <figcaption>
                 <h3>Link to GitHub</h3>
                 <span>Raj Mahal</span>
@@ -322,19 +330,19 @@ fact from a set array of facts, leveraged AWS Lambda function for server side pr
       </div>
       <div class="sepreater"></div>
           <ul>
-            <h2 style="color:white;text-align: center;">Knodemy Web Application Development</h2>
-            <li style="color:white;">Application that allows customers to create & manage coding workshops</li>
-            <li style="color:white;">Python, Django, HTML5, Bootstrap, SQL</li>
+            <h2 style="color:white;text-align: center;">Personal Website</h2>
+            <li style="color:white;">A personal webpage to allow users to easily connect with me and find my resume as well as other contact information.</li>
+            <li style="color:white;">HTML5, CSS, Parallax, Javascript</li>
           </ul>
       <div class="container demo-1">
         <ul class="grid cs-style-1">
           <li>
             <figure>
-              <img class="portfolio-images" src="images/portfolio/github.jpg">
+              <img class="portfolio-images" src="projectpics/personweb.png">
               <figcaption>
                 <h3>Link to GitHub</h3>
                 <span>Raj Mahal</span>
-                <a href="https://github.com/rmahal/">Take a look</a>
+                <a href="https://github.com/rmahal/PersonalWebsite">Take a look</a>
               </figcaption>
             </figure>
           </li>
@@ -475,6 +483,12 @@ fact from a set array of facts, leveraged AWS Lambda function for server side pr
        <!--///////////////////////////////////////////////////////
        // End Footer section 
        //////////////////////////////////////////////////////////-->
+
+<script>
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.1;
+</script>
+
 
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/normal.js"></script>
